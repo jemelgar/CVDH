@@ -1,0 +1,99 @@
+/* Reset de márgenes y padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #FF3CAC;
+    background-image: linear-gradient(225deg, #FF3CAC 0%, #784BA0 50%, #2B86C5 100%);
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Barra de navegación */
+nav {
+    background-color: #333;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 20px;
+    font-size: 18px;
+}
+
+/* Encabezado */
+header {
+    text-align: center;
+    padding: 20px;
+    background-color: #fff;
+}
+
+header h1 {
+    font-size: 28px;
+    margin: 10px 0;
+}
+
+header h2 {
+    font-size: 22px;
+    margin: 5px 0;
+    color: #666;
+}
+
+/* Estilos para la imagen */
+header img {
+    display: block;
+    margin: 0 auto;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Sección de artículos */
+section {
+    padding: 20px;
+}
+
+article {
+    margin-bottom: 20px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+article h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+article p {
+    font-size: 16px;
+    color: #666;
+}
+
+/* Pie de página */
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+}
+
+/* Iconos */
+footer i {
+    font-size: 24px;
+    margin: 0 10px;
+}
+
+footer a:visited {
+    color: #fff;
+}
